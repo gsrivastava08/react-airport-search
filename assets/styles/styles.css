@@ -1,0 +1,35 @@
+.list-heading{vertical-align: super;margin-left: 15px;}
+label{color: #505050;}
+
+.info-sub{
+	font-size: 12px;
+	width: 170px;
+}
+
+.sub-box-display{
+	width: 170px;
+}
+.info-sub i {
+	font-size: 20px;
+    vertical-align: text-bottom;
+    color: #808080;
+}
+
+.pin-top {
+  position: relative;
+}
+
+
+.pin-bottom {
+  position: relative;
+}
+
+
+.pinned {
+  position: fixed !important;
+  width: 322.5px !important;
+}
+
+.scroll-it{
+	float: right !important;
+}

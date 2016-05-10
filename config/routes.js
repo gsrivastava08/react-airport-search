@@ -34,7 +34,18 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+
+  '/list' : {
+    'controller' : 'AirportController',
+    'action' : 'List'
+  },
+
+  '/list-search' : {
+    'controller' : 'AirportController',
+    'action' : 'Search'
   }
+
 
   /***************************************************************************
   *                                                                          *
